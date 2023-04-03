@@ -1,0 +1,40 @@
+package Locators;
+
+public class RegistrationLocators {
+    public final String New_Entry = "//button[normalize-space()='New Entry']";
+    public final String Date = "//button[@class='ui-datepicker-trigger ui-calendar-button ng-tns-c21-16 ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ng-star-inserted']//span[@class='ui-button-icon-left ui-clickable pi pi-calendar']";
+    public final String Select_Date = "//a[normalize-space()='22']";
+    public final String Company = "//label[@class='ng-tns-c19-17 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted']";
+    public final String Select_Company = "//li[@aria-label='SRK']";
+    public final String Location = "//label[@class='ng-tns-c19-18 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted']";
+    public final String Select_Location = "//li[@aria-label='INDIA']";
+    public final String Department = "//label[@class='ng-tns-c19-19 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted']";
+    public final String Select_Department = "//span[normalize-space()='MANUFACTURING']";
+    public final String Category = "//label[@class='ng-tns-c19-20 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted']";
+    public final String Select_Category = "//li[@aria-label='Admin']";
+    public final String Stone_Detail = "//label[@class='ng-tns-c19-21 ui-dropdown-label ui-inputtext ui-corner-all ui-placeholder ng-star-inserted']";
+    public final String Select_Stone = "//li[@aria-label='Smart View 1']";
+    public final String User_Role_Access = "//div[@class='ng-tns-c20-22 ui-multiselect ui-widget ui-state-default ui-corner-all']//span[@class='ui-multiselect-label ui-corner-all'][normalize-space()='Choose']";
+    public final String Select_Role = "//li[@aria-label='Quality Assurance Specialist']//div[@class='ui-chkbox-box ui-widget ui-corner-all ui-state-default']";
+    public final String F_Name = "//input[@placeholder='First Name']";
+    public final String DOB = "//button[@class='ui-datepicker-trigger ui-calendar-button ng-tns-c21-23 ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ng-star-inserted']//span[@class='ui-button-icon-left ui-clickable pi pi-calendar']";
+    public final String Select_DOB = "//a[normalize-space()='23']";
+    public final String Gender = "//label[text()='Male']";
+    public final String Marital_Status = "//label[text()='Un-Married']";
+    public final String Code = "//div//input[@formcontrolname='mobileCode']";
+    public final String Phone = "//div//input[@formcontrolname='mobileNo']";
+    public final String Email = "//input[@placeholder='Office E-Mail']";
+    public String Houseno = "//input[@formcontrolname='perHouseNo']";
+    public String StreetAddress = "//input[@formcontrolname='perStreetAddress']";
+    public String AddressLine2 = "//input[@formcontrolname='perAddressLine2']";
+    public String Country = "//label[contains(@class,'ng-tns-c19-24 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted')]";
+    public String CountryDrop = "//li[@aria-label='INDIA']";
+    public String State = "//label[contains(@class,'ng-tns-c19-25 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted')]";
+    public String StateDrop = "//span[normalize-space()='Gujarat']";
+    public String City = "//label[@class='ng-tns-c19-26 ui-dropdown-label ui-inputtext ui-corner-all ui-placeholder ui-dropdown-label-empty ng-star-inserted']";
+    public String CityDrop = "//li[@aria-label='Valsad']";
+    public String Pincode = "//label[@class='ng-tns-c19-40 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted']";
+    public String PincodeDrop = "//li[@aria-label='396001']";
+    public String LoginName = "//input[@placeholder='Login Name']";
+    public final String Save = "//span[@class='pi pi-user-plus ui-clickable ui-button-icon-left ng-star-inserted']";
+}
